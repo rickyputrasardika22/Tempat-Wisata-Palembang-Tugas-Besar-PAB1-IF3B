@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:paddingBottom="10dp"
+        android:background="#abdbe3"
+        >
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:text="Nama Tempat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            />
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="550px"
+            android:layout_height="450px"
+            android:layout_below="@id/tv_nama"
+            android:src="@drawable/danau_air_batu" />
+
+        <ImageView
+            android:id="@+id/ic_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/tv_nama"
+            android:src="@drawable/icon_location" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ic_alamat"
+            android:layout_below="@id/tv_nama"
+            android:text="Alamat"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            />
+
+        <ImageView
+            android:id="@+id/ic_jam_operasional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/tv_alamat"
+            android:src="@drawable/icon_time"
+            />
+
+        <TextView
+            android:id="@+id/tv_jam_operasional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/ic_jam_operasional"
+            android:layout_below="@id/tv_alamat"
+            android:text="Jam Operasional"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            />
+
+        <ImageView
+            android:id="@+id/ic_tarif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/tv_jam_operasional"
+            android:src="@drawable/icon_tarif"
+            android:fontFamily="sans-serif"
+            />
+
+        <TextView
+            android:id="@+id/tv_tarif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/ic_jam_operasional"
+            android:layout_below="@id/tv_jam_operasional"
+            android:text="Tarif"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            />
+
+        <ImageView
+            android:id="@+id/ic_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/tv_tarif"
+            android:src="@drawable/icon_rating"
+            />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/ic_jam_operasional"
+            android:layout_below="@id/tv_tarif"
+            android:text="Rating"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/tv_judul_kelompok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Wisata di Sumsel"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_keterangan_kelompok"
+        android:layout_below="@+id/tv_judul_kelompok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Nama Kelompok\t\t\t\t: Tempat Wisata di Sumsel\nMata Kuliah\t\t\t\t\t\t\t\t\t: Pemrograman Aplikasi Bergerak I\nKelas\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t: IF3B\nDosen Pengampu\t\t\t: Ahmad Farisi, M.Kom."
+
+        />
+
+    <TextView
+        android:layout_below="@+id/tv_keterangan_kelompok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Deskripsi :
+        \n\nAplikasi ini akan menampilkan beberapa tempat wisata yang ada di Provinsi Sumatera Selatan. Dengan menggunakan aplikasi ini, diharapkan anda dapat mengetahui nama-nama tempat wisata di Sumsel dan juga mengenai tarif, jam operasional dan lokasi. Kami menyadari bahwa aplikasi ini masih ada kekurangan, oleh sebab itu kami berharap agar pengguna dapat memberikan saran maupun kritik sehingga aplikasi ini dapat dikembangkan menjadi lebih baik. Berikut kami lampirkan nama nama anggota dari kelompok kami.\n\n1.Prima Putra Agusantara\n2.Ricky Putra Sardika\n3.M. Rifqi Virgiansyah\n\nDemikian yang dapat disampaikan oleh kami, semoga aplikasi ini dapat bermanfaat bagi kita semua.
+"
+
+        />
+
+</RelativeLayout>
